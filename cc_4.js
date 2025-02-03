@@ -55,10 +55,10 @@ console.log(`Tax on $100: $${calculateTax(100,0.1)}`); //log example
 
 //Task 9 Function expressions
 let applyDiscount = function(price,disper) {
-    let disprc = price * disper;
+    let disprc = price * disper; //calculating purchsae price times the discount percent (0.xx)
     console.log(`Discounted Price: ${disprc}`);
-};
+}; //create a function expression to assign this variable the function
 
 //Task 10
-let calcPoint = prchamnt => Math.floor(prchamnt / 10);
-console.log(`Points Earned: ${calcPoint(213)}`);
+let calcPoint = prchamnt => Math.floor(prchamnt / 10); //Uses math floor to divide the purchase amount by 10 and return the lower rounded result
+console.log(`Points Earned: ${calcPoint(213)}`); //Points earned on 213 dollar purchase
