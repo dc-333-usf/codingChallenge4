@@ -37,11 +37,19 @@ for (let property in employee) {
 }; //use For In loop to log the property, followed by the value of the property
 
 //Task 6 For...Of loop
-let products = ["Chair", "Sofa", "Table"];
+let products = ["Chair", "Sofa", "Table"]; //declare array
 for (let inst of products) {
     console.log(inst);
-};
+}; //create For Of loop to log each instance
 
 //Task 7 foEach() method
-let orders = [101, 102, 103];
-orders.forEach(ord => console.log(ord));
+let orders = [101, 102, 103]; //declare array
+orders.forEach(ord => console.log(ord)); //go through array and print
+
+//Task 8 Function declaration
+function calculateTax(amnt,rate) {
+    tax = (amnt * rate);
+    return tax;
+}; //create function to calculate tax amount based on rate and total
+console.log(`Tax on $100: $${calculateTax(100,0.1)}`); //log example
+
