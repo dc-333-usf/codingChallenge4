@@ -41,3 +41,7 @@ let products = ["Chair", "Sofa", "Table"];
 for (let inst of products) {
     console.log(inst);
 };
+
+//Task 7 foEach() method
+let orders = [101, 102, 103];
+orders.forEach(ord => console.log(ord));
