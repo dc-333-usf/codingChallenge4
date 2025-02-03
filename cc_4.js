@@ -25,3 +25,13 @@ do {
     responses++;
     console.log(`Responses: ${responses}`);
 } while (responses < 3); //create do while loop that increases the value of the responses variable by 1 each loop
+
+//Task 5 For...In loop
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}; //declare employee object
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+}; //use For In loop to log the property, followed by the value of the property
