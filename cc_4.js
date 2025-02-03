@@ -58,3 +58,7 @@ let applyDiscount = function(price,disper) {
     let disprc = price * disper;
     console.log(`Discounted Price: ${disprc}`);
 };
+
+//Task 10
+let calcPoint = prchamnt => Math.floor(prchamnt / 10);
+console.log(`Points Earned: ${calcPoint(213)}`);
