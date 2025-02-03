@@ -19,3 +19,9 @@ console.log(total); //log array total
 let stock = 10; //declare stock
 while (stock > 0, console.log(`Stock: ${stock}`), stock--); //use while loop to decrease stock by 1 and log each
 
+//Task 4 Do...While loop
+let responses = 0;
+do {
+    responses++;
+    console.log(`Responses: ${responses}`);
+} while (responses < 3); //create do while loop that increases the value of the responses variable by 1 each loop
