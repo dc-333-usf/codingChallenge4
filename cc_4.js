@@ -7,3 +7,15 @@ if (purchaseAmount > 100) {
 }; //write if statement for a 10 percent discount if order amount is over 100
 console.log(`Final amount: ${finalAmount}`); //log final purchase amount
 
+//Task 2 For loop
+let sales = [90, 115, 85, 230, 160]; //declare array
+let total = 0; //create variable for total
+for (let num of sales) {
+    total += num;
+}; //calculate total of array using for of loop
+console.log(total); //log array total
+
+//Task 3 While loop
+let stock = 10; //declare stock
+while (stock > 0, console.log(`Stock: ${stock}`), stock--); //use while loop to decrease stock by 1 and log each
+
