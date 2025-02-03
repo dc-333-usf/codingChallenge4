@@ -35,3 +35,9 @@ let employee = {
 for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
 }; //use For In loop to log the property, followed by the value of the property
+
+//Task 6 For...Of loop
+let products = ["Chair", "Sofa", "Table"];
+for (let inst of products) {
+    console.log(inst);
+};
