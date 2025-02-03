@@ -53,3 +53,8 @@ function calculateTax(amnt,rate) {
 }; //create function to calculate tax amount based on rate and total
 console.log(`Tax on $100: $${calculateTax(100,0.1)}`); //log example
 
+//Task 9 Function expressions
+let applyDiscount = function(price,disper) {
+    let disprc = price * disper;
+    console.log(`Discounted Price: ${disprc}`);
+};
